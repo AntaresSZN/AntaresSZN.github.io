@@ -1,0 +1,288 @@
+header {
+    background-color: #f7f8fb;
+    background-image: url(images/anycoach1.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    font-family: impact, Arial, Helvetica;
+    padding-top: 15px;
+    height: 110px;
+    text-align: center;
+
+}
+
+nav {
+    font-size: 120%;
+    font-weight: bold;
+    float: left;
+    width: 160px;
+    padding: 1.5em;
+    background-color: #06c258;
+    text-decoration: none;
+    text-align: center;
+    background-image: linear-gradient(to top, #B5E61D, #378B29);
+    border: 2px solid #000000;
+
+}
+
+h1 {
+    margin-bottom: 0;
+}
+
+h2 {
+    margin-bottom: 0;
+    font-family: impact, Times, serif;
+}
+
+body {
+    background-color: #87CEEB;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration-color: #020101;
+}
+
+footer {
+    height: 60px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 960px;
+    max-width: 2048px;
+    text-align: center;
+    font-weight: bold;
+}
+
+ul {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+#wrapper {
+    background-color: #06c258;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    min-width: 960px;
+    max-width: 2048px;
+    min-height: 800px;
+    box-shadow: 5px 5px 5px #020101;
+    background-image: linear-gradient(to top, #06c258, #B5E61D);
+    margin-bottom: 50px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#facility {
+    height: 370px;
+    background-repeat: no-repeat;
+    background-image: url(images/coachingfacility.png);
+}
+
+#address {
+    background-color: #06c258;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    box-shadow: 5px 5px 5px #020101;
+    margin-top: 0;
+    padding-top: 10px;
+}
+
+#football {
+    background-image: url(images/footballdot111.png);
+    width: 40%;
+    height: 325px;
+    background-repeat: no-repeat;
+    margin-top: 380px;
+}
+
+section {
+    float: left;
+    width: 33%;
+    padding-left: 0;
+    padding-right: 0;
+    margin: auto;
+    border: 3px solid #000000;
+    margin-right: 3px;
+    margin-bottom: 3px;
+    margin-top: 3px;
+    margin-left: 3px;
+}
+
+nav a:link {
+    color: #000000;
+    text-decoration: none;
+}
+
+nav a:visited {
+    color: #ee00ff;
+    text-decoration: none;
+}
+
+nav ul {
+    text-decoration: none;
+    margin: 0;
+    list-style-type: none;
+    padding-left: 0;
+    font-size: 1.2em;
+}
+
+nav a {
+    text-decoration: none;
+    color: #66ff00
+}
+
+.pic {
+    float: left;
+    width: 40%;
+    padding-left: 0;
+    padding-right: 0;
+    margin: auto;
+    border: 3px solid #000000;
+    margin-right: 3px;
+    margin-bottom: 3px;
+    margin-top: 3px;
+    margin-left: 3px;
+}
+
+p {
+    text-indent: 1.5em;
+}
+
+table {
+    border: 3px solid #f7f8fb;
+    border-collapse: collapse;
+    width: 75%;
+}
+
+td,
+th {
+    padding: 1em;
+    border: 3px solid #f7f8fb;
+}
+
+.position {
+    text-align: center;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#summary {
+    background-color: #FAF9F6;
+    width: 35%;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    margin-left: auto;
+    border: 3px solid #000000;
+    margin-right: auto;
+    margin-bottom: 3px;
+    margin-top: 3px;
+}
+
+#summersale {
+    background-image: url(images/Summersale.png);
+    background-repeat: no-repeat;
+    height: 315px;
+    width: 20%;
+}
+
+#dailydeal {
+    background-image: url(images/deal.png);
+    background-repeat: no-repeat;
+    height: 315px;
+    width: 20%;
+}
+
+#buynow {
+    background-image: url(images/buynow.png);
+    background-repeat: no-repeat;
+    height: 315px;
+    width: 20%;
+    display: flex;
+}
+
+.picalign {
+    display: flex;
+    margin: 3px;
+    margin-left: 170px;
+    float: left;
+    padding-left: 0;
+    padding-right: 0;
+    min-height: 315px;
+}
+
+hr {
+    border: 2px solid #000000;
+}
+
+tr:nth-of-type(odd) {
+    background-color: #FFD200;
+}
+
+tr:nth-of-type(even) {
+    background-color: #72CDF4;
+}
+
+label {
+    display: block;
+    text-align: center;
+}
+
+input,
+select,
+textarea {
+    display: block;
+    margin-bottom: 20px;
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 70%;
+}
+
+form {
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%
+}
+
+.fh {
+    background-color: #72CDF4;
+    width: 60%;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    margin-left: auto;
+    border: 3px solid #FFD200;
+    margin-right: auto;
+    margin-bottom: 3px;
+    margin-top: 3px;
+    text-align: center;
+}
+
+#motivation {
+    background-image: url(images/forummotivation.png);
+    background-repeat: no-repeat;
+    width: 225px;
+    height: 225px;
+    background-size: 100% 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.reminder {
+    color: #000000;
+    font-weight: bold;
+}
+
+nav ul li a {
+    color: #66ff00;
+    text-decoration: none;
+    transition: color 0.8s, background-color 0.8s;
+}
+
+nav ul li a:hover {
+    color: #FFFFFF;
+    background-color: #000000;
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>AnyCoach</title>
+    <meta charset="utf-8">
+    <link href="competency.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="wrapper">
+        <header>
+            <h1>AnyCoach</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="availability.html">Availability</a></li>
+                <li><a href="schedule.html">Schedule</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <div class="fh">When filling out the Select a coach portion of the form
+                please refer to our <a class="reminder" href="avalability.html">'Availability'</a> tab in the top left.
+                As a courtesy
+                for our coaches we would greatly appreciate if you add in your height
+                and weight as well as what position you play. This is so our coach can
+                properly prepare his vehicle or the facility for your use!
+                <div id="motivation" title="Motivational quote by Walt Disney." class="motalign"></div>
+
+
+
+
+
+                <h2>AnyCoach Scheduling</h2>
+                <h3>Set up an appointment today!</h3>
+                <p>Required fields are marked with an asterisk*</p>
+
+                <div id="formcent">
+                    <form action="https://webdevbasics.net/scripts/demo.php" method="post">
+                        <label for="FirstName">*First Name:</label>
+                        <input type="text" name="FirstName" id="FirstName" required="required">
+
+                        <label for="LastName">*Last Name:</label>
+                        <input type="text" name="LastName" id="LastName" required="required">
+
+                        <label for="email">*E-mail:</label>
+                        <input type="email" name="email" id="email" required="required">
+                        <label for="date1">Start Date:</label>
+                        <input type="date" name="date1" id="date1" required="required">
+                        <label for="date2">End Date:</label>
+                        <input type="date" name="date2" id="date2" required="required">
+                        <label for="comments">*Comments</label>
+                        <textarea name="comments" rows="8" cols="30" value="submit" required="required"></textarea>
+                        <label for="coach-names">Select a coach</label>
+                        <select name="coach-names" id="coach-names">
+                            <option value="jacob-henddricks">Jacob Henddricks</option>
+                            <option value="austin-anders">Austin Anders</option>
+                            <option value="daniel-lopez">Daniel Lopez</option>
+                            <option value="tavi-lares">Tavi Lares</option>
+                        </select>
+                        <input type="submit" name="submit" id="submit">
+                    </form>
+                </div>
+            </div>
+
+        </main>
+        <div id="football" title="Outline of a football!"></div>
+    </div>
+    <footer>
+
+        <div id="address">
+            AnyCoach<br>
+            9332 w 557 n<br>
+            Layton, UT 04048<br>
+            <br>
+            801-888-4444<br>
+            <br>
+        </div>
+        <br>
+        <small><b>
+                Copyright &copy; 2024 AnyCoach<br>
+                <a href="mailto:AnyCoach@gmail.com">
+                    Contact Us!
+                </a>
+            </b></small>
+    </footer>
+
+
+
+</body>
+
+</html>
